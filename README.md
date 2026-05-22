@@ -35,52 +35,6 @@ El proyecto implementa una arquitectura organizada por capas (Modelo – Vista/R
 
 ---
 
-## 📁 Estructura del proyecto
-
-```plaintext
-ticketlite-main/
-│
-├── basedatos/
-│   └── tickelite.sql
-│
-├── controlador/
-│   ├── AdministradorControlador.js
-│   ├── CalendarioControlador.js
-│   ├── ClienteControlador.js
-│   └── EventoControlador.js
-│
-├── modelo/
-│   ├── bd/
-│   │   ├── Conexion.js
-│   │   ├── config.js
-│   │   └── .env
-│   │
-│   ├── AdministradorModelo.js
-│   ├── CalendarioModelo.js
-│   ├── ClienteModelo.js
-│   └── EventoModelo.js
-│
-├── vista/
-│   ├── AdministradorRutas.js
-│   ├── CalendarioRutas.js
-│   ├── ClienteRutas.js
-│   └── EventoRutas.js
-│
-├── servidor.js
-├── package.json
-└── README.md
-```
-
----
-
-## 🔒 Seguridad
-
-El proyecto incorpora:
-
-- Uso de `bcrypt` para manejo seguro de datos sensibles.
-- Configuración mediante variables de entorno.
-- Middleware CORS para control de acceso.
-
 ## 👩‍💻 Autor
 
 **Valeria Andrea Osorio Santana**
